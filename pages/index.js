@@ -10,19 +10,35 @@ const Home = () => {
         </div>
         <div>
           <label htmlFor="nom">nom</label>
-          <input type="nom" name="nom" placeholder="votre nom" />
+          <input
+            className="form-control"
+            type="nom"
+            name="nom"
+            placeholder="votre nom"
+          />
         </div>
         <div>
           <label htmlFor="prenom">prenom</label>
-          <input type="prenom" prenom="prenom" placeholder="votre prenom" />
+          <input
+            className="form-control"
+            type="prenom"
+            prenom="prenom"
+            placeholder="votre prenom"
+          />
         </div>
         <div>
           <label htmlFor="adresse">adresse</label>
-          <input type="adresse" adresse="adresse" placeholder="votre adresse" />
+          <input
+            className="form-control"
+            type="adresse"
+            adresse="adresse"
+            placeholder="votre adresse"
+          />
         </div>
         <label htmlFor="code postal">code postal</label>
         <input
-          type="code postal"
+          type
+          className="form-control"
           code
           postal="code postal"
           placeholder="votre code postal"
